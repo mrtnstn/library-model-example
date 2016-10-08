@@ -1,15 +1,25 @@
 {
   "name": "typescript-project-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A project template to jump start developing web applications with Typescript and React",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config config/webpack.production.config.js",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrtnstn/typescript-project-template"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "webpack",
+    "babel",
+    "hot module reloading"
+  ],
+  "author": "Maarten (https://github.com/mrtnstn)",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^0.14.39",
