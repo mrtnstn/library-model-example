@@ -15,6 +15,10 @@ open http://localhost:3000
 
 ## Change log
 
+Version 1.0.0:
 * Upgraded to Typescript 2.0
 * Using Babel stage-3 prefix instead of stage-0
 * Using an alternative webpack config for production builds
+
+Version 1.1.0:
+* Added MobX, an essential library for state management, see https://github.com/mobxjs
