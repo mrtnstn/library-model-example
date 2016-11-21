@@ -1,7 +1,7 @@
 {
-  "name": "typescript-project-template",
-  "version": "1.1.0",
-  "description": "A project template to jump start developing web applications with Typescript and React using MobX for state management",
+  "name": "library-model-example",
+  "version": "0.0.1",
+  "description": "An experiment to create a model editor using Typescript, React and MobX.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config config/webpack.production.config.js",
@@ -10,9 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrtnstn/typescript-project-template"
+    "url": "https://github.com/mrtnstn/library-model-example"
   },
   "keywords": [
+    "library",
+    "model",
     "typescript",
     "react",
     "mobx",

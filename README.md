@@ -1,9 +1,8 @@
-# Typescript and React project template
+# Library Model Example
 
-This is a project template to jump start developing web applications with Typescript and React. 
-It uses Webpack Hot Module Reloading to facilitate incremental development.
-This template is largely based on the one created and documented by Tom Duncalf. 
-For more information, see http://blog.tomduncalf.com/posts/setting-up-typescript-and-react/
+An experiment to create a model editor using Typescript, React and MobX.
+
+Starting point was the typescript-react-project template from https://github.com/mrtnstn/typescript-project-template.
 
 ## Run the example
 
@@ -15,10 +14,6 @@ open http://localhost:3000
 
 ## Change log
 
-Version 1.0.0:
-* Upgraded to Typescript 2.0
-* Using Babel stage-3 prefix instead of stage-0
-* Using an alternative webpack config for production builds
-
-Version 1.1.0:
-* Added MobX, an essential library for state management, see https://github.com/mobxjs
+Version 0.0.1:
+* Initial README.md
+* Initial metadata in e.g. package.json
