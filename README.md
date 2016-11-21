@@ -17,3 +17,8 @@ open http://localhost:3000
 Version 0.0.1:
 * Initial README.md
 * Initial metadata in e.g. package.json
+
+Version 0.0.2:
+* A simple Library model specified using typescript classes
+* A simple LibraryView, just a form to edit the library's name.
+

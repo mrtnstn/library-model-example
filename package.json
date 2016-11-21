@@ -1,6 +1,6 @@
 {
   "name": "library-model-example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An experiment to create a model editor using Typescript, React and MobX.",
   "main": "index.js",
   "scripts": {

@@ -1,4 +1,5 @@
 import { observable, action, useStrict } from 'mobx';
+import { Library } from './model/Library';
 
 useStrict(true);    // make sure the state can only be changed through an action
 
@@ -17,3 +18,4 @@ class AppState {
 }
 
 export const appState = new AppState();
+export const model = new Library();
