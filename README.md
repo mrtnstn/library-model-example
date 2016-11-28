@@ -22,3 +22,7 @@ Version 0.0.2:
 * A simple Library model specified using typescript classes
 * A simple LibraryView, just a form to edit the library's name.
 
+Version 0.0.3:
+* Extended the LibraryView to also list its books and authors.
+* Added a UUID to model objects to be used as key by React components.
+* Added methods addBook and addAuthor to the Library class.

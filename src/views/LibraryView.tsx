@@ -10,11 +10,26 @@ interface ILibraryView {
 class LibraryView extends React.Component<ILibraryView, {}> {
 
     render() {
+      let library = this.props.model;
       return (
         <div>
             <label>Library Name: </label>
-            <input type="text" name="name" value={this.props.model.name} 
+            <input type="text" name="name" value={library.name} 
                 onChange={this.handleChange}/>
+            <div>
+                <label>Books: </label>
+                <ol>
+                    {library.books.map((book) => 
+                        <li key={book.uuid}>{book.title}</li>)}
+                </ol>
+            </div>
+            <div>
+                <label>Authors: </label>
+                <ol>
+                    {library.authors.map((author) => 
+                        <li key={author.uuid}>{author.name}</li>)}
+                </ol>
+            </div>
         </div>
       )
     }
