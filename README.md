@@ -26,3 +26,7 @@ Version 0.0.3:
 * Extended the LibraryView to also list its books and authors.
 * Added a UUID to model objects to be used as key by React components.
 * Added methods addBook and addAuthor to the Library class.
+
+Version 0.0.4:
+* Added the ability to select model elements
+* Added a simple property form for books

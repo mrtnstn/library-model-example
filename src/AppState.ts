@@ -7,6 +7,13 @@ class AppState {
   @observable appName: string = 'Library Model Editor';
   @observable description: string = 'An experiment to create a model editor using Typescript, React and MobX.';
 
+  @observable selection: any;
+
+  @action
+  setSelection(element: any) {
+      this.selection = element;
+  }
+
 }
 
 export const appState = new AppState();

@@ -8,6 +8,11 @@ export class Library
     @observable authors: Writer[] = [];
 
     @action
+    setName(newName: string) {
+        this.name = newName;
+    }
+
+    @action
     addBook(newBook: Book) {
         this.books.push(newBook);
     }
@@ -28,6 +33,16 @@ export class Book
 
     constructor() {
         this.uuid = uuid();
+    }
+
+    @action
+    setTitle(newTitle: string) {
+        this.title = newTitle;
+    }
+
+    @action
+    setPages(newPages: number) {
+        this.pages = newPages;
     }
 }
 
